@@ -17,6 +17,10 @@ class TelaInicial{
    text("As Aventuras de",width/2,height/3);
    textSize(150);
    text("Hipsta",width/2,height/5*2.5);
+   textSize(50);
+   text("As Aventuras de",width/2,height/3);
+   textSize(30);
+   text("Use as setas do teclado para controlar a Hipsta",width/2,height/5);
     
   }
   _botao(){

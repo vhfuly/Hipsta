@@ -98,9 +98,10 @@ class Jogo {
         somDoJogo.stop();
         noLoop();
         gameOver=true;
+        textAlign(CENTER);
         textSize(40);
         fill('#fff');
-        text( 'Para reiniciar o jogo, tecle Enter', width/2+200, height/3*2);
+        text( 'Para reiniciar o jogo, tecle "Enter"', width/2, height/3*2);
     
       }
      
